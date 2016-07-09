@@ -10231,7 +10231,7 @@ body:not(.device-touch) .team-overlay {
 
 
 .counter {
-	font-size: 42px;
+	font-size: 35px;
 	font-weight: 600;
 	font-family: 'Raleway', sans-serif;
 }
@@ -13558,4 +13558,9 @@ color: #111 !important;
 .comwid
 {
 	padding: 10px 0px;
+}
+.col-padding-or
+{
+	padding: 15px 60px;
+	height:230px!important;
 }
