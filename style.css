@@ -7510,7 +7510,9 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box .fbox-icon i,
 .feature-box .fbox-icon img {
 	border-radius: 50%;
-	background-color: #1ABC9C;
+	background-color: #1ABC9C
+	margin-top: 20px;
+
 }
 
 .feature-box .fbox-icon i {
@@ -10251,7 +10253,7 @@ body:not(.device-touch) .team-overlay {
 }
 
 .counter + h5 {
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-top: 10px;
