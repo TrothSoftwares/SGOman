@@ -18,6 +18,7 @@
 
 #contact-buttons-bar.slide-on-scroll {
   position: absolute;
+  z-index: 100;
 }
 
 .contact-button-link  {

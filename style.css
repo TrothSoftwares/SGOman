@@ -7510,7 +7510,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box .fbox-icon i,
 .feature-box .fbox-icon img {
 	border-radius: 50%;
-	background-color: #1ABC9C
+	background-color: #1ABC9C;
 	margin-top: 20px;
 
 }
@@ -13565,4 +13565,9 @@ color: #111 !important;
 {
 	padding: 15px 60px;
 	height:230px!important;
+}
+.crosslinks li
+{
+		font-size: 1.2em;
+		margin-bottom: 1em;
 }
