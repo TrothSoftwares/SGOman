@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="social/css/contact-buttons.css">
 	<link rel="stylesheet" href="social/css/demo.css">
+	<link rel="stylesheet" href="css/YouTubeDefaultImageLoader.css">
+
 
 
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
@@ -572,9 +574,6 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 						<div class="heading-block center nomargin">
 							<h3>Our Projects</h3>
 						</div>
-					</div>
-				</div>
-				<div class="container bottommargin" >
 				<div id="portfolio" class="portfolio portfolio-nomargin grid-container portfolio-notitle portfolio-full grid-container clearfix">
 
 
@@ -715,6 +714,8 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 						</div>
 					</article>
 				</div>
+			</div>
+
 			</div>
 
 
@@ -1112,10 +1113,12 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 
 							<div class="widget clearfix">
 								<h4>Watch Video</h4>
+								<div class="youtubeVideoLoader" id="OguQFOOp7BY">
+									<img src="images/solar/vid.jpg" style="cursor:pointer"  >
 
-								<img src="images/solar/vid.jpg" style="cursor:pointer" data-toggle="modal" data-target=".bs-example-modal-lg">
+								</div>
 
-								<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<!-- <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 									<div class="modal-dialog modal-lg">
 										<div class="modal-body">
 											<div class="modal-content">
@@ -1125,6 +1128,20 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 												</div>
 												<iframe width="854" height="480" src="https://www.youtube.com/embed/OguQFOOp7BY?list=UU6Z0hiDQqg7jALvTPRPdy9g" frameborder="0" allowfullscreen></iframe>
 
+											</div>
+										</div>
+									</div>
+								</div> -->
+								<div class="modal fade" id="youtubeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-body">
+												<div id="videoModalContainer">
+
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button id="CloseModalButton" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 											</div>
 										</div>
 									</div>
@@ -1188,6 +1205,7 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 	============================================= -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script src="js/YouTubeDefaultImageLoader.js"></script>
 
 
 	<script type="text/javascript" src="js/plugins.js"></script>
