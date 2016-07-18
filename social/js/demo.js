@@ -29,9 +29,9 @@ $.contactButtons({
     'facebook':   { class: 'facebook', use: true, link: 'https://www.facebook.com/SolarGarduae', extras: 'target="_blank"' },
     'twitter':    { class: 'twitter',use:true,link: 'https://twitter.com/SolarandSafety', extras: 'target="_blank"' },
     'youtube':    { class: 'youtube',      use: true, link: 'https://www.youtube.com/channel/UC6Z0hiDQqg7jALvTPRPdy9g', icon: 'youtube', extras: 'target="_blank"', title: 'Visit YouTube Channel'  },
-    'googleplus':    { class: 'gplus',      use: true, link: 'https://www.youtube.com/channel/UC6Z0hiDQqg7jALvTPRPdy9g', icon: 'google-plus', extras: 'target="_blank"' , title: 'Visit on Google Plus'  },
+    'googleplus': { class: 'gplus',      use: true, link: 'https://www.youtube.com/channel/UC6Z0hiDQqg7jALvTPRPdy9g', icon: 'google-plus', extras: 'target="_blank"' , title: 'Visit on Google Plus'  },
 
-    'phone':      { class: 'phone separated',    use: true, link: '+000' },
+    'phone':      { class: 'phone separated',    use: true, link: '+000',  title:'+96558223' },
     'email':      { class: 'email',    use: true, link: 'test@web.com' }
   }
 });
