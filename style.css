@@ -13571,3 +13571,10 @@ color: #111 !important;
 		font-size: 1.2em;
 		margin-bottom: 1em;
 }
+@media all  and (max-width: 479px) {
+
+.logo-res
+{
+	display: none !important;
+}
+}
