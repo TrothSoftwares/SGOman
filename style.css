@@ -6645,7 +6645,7 @@ body:not(.device-touch) .button {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.button.button-dark:hover { background-color: #1ABC9C; }
+.button.button-dark:hover { background-color: #337ab7; }
 
 .button.button-mini {
 	padding: 0 14px;
@@ -9653,7 +9653,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .testimonial {
 	position: relative;
-	padding: 20px;
+	padding: 0px 0px 10px 0px;
 	background-color: #FFF;
 	border: 1px solid rgba(0,0,0,0.1);
 	border-radius: 5px;
@@ -9736,15 +9736,15 @@ body:not(.device-touch) .clients-grid li a {
 /* Testimonials - Full Width
 -----------------------------------------------------------------*/
 
-.testimonial.testimonial-full { padding: 30px; }
+.testimonial.testimonial-full {  }
 
-.testimonial.testimonial-full[data-animation="fade"] { padding: 30px; }
+.testimonial.testimonial-full[data-animation="fade"] {  }
 
 .testimonial.testimonial-full[data-animation="fade"] .flexslider { overflow: visible !important; }
 
 .testimonial-full .testi-image {
 	float: none;
-	margin: 0 auto 20px;
+	margin: 0 auto ;
 }
 
 .testimonial-full .testi-image,
@@ -9776,7 +9776,6 @@ body:not(.device-touch) .clients-grid li a {
 	background-color: transparent !important;
 	border: 0 !important;
 	box-shadow: none !important;
-	max-width: 800px;
 	margin: 0 auto;
 }
 
