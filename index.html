@@ -63,11 +63,9 @@
 					<nav id="primary-menu" class="navbar page-scroll" class="dark">
 
 						<ul class="or1">
-							<li class="hidden">
-									<a class="page-scroll" href="#page-top"></a>
-							</li>
-							<li class="current page-scroll" ><a href="#page-top"><div>Home</div></a></li>
-							<li><a class="page-scroll" href="#content"><div>our company</div></a>
+
+							<li class="current " ><a href="#"data-scrollto="#page-top"><div>Home</div></a></li>
+							<li><a  href="#" data-scrollto="#content"><div>our company</div></a>
 								<ul class="submenu-or">
 									<li><a href="ourcompany.html"><div>Company Profile</div></a></li>
 									<li><a href="whatwedo.html"><div>What We Do</div></a></li>
@@ -75,7 +73,7 @@
 									<li><a href="quality-benefits.html"><div>Quality & Benefits</div></a></li>
 								</ul>
 							</li>
-							<li><a class="page-scroll" href="#services"><div>Products</div></a>
+							<li><a  href="#" data-scrollto="#services"  ><div>Products</div></a>
 								<ul class="submenu-or">
 									<li><a href="solar-gard-automotive-oman.html"><div>Automotive</div></a></li>
 									<li><a href="solar-gard-paint-protection-oman.html"><div>Paint Protection</div></a></li>
@@ -89,7 +87,7 @@
 							<!-- <li><a class="page-scroll" href="#cor-values"><div>Corporate Values</div></a></li> -->
 
 
-							<li><a href="#gallery" class="page-scroll"><div>gallery</div></a>
+							<li><a href="#" data-scrollto="#gallery"><div>gallery</div></a>
 
 
 								<ul class="submenu-or">
@@ -99,10 +97,10 @@
 									<li><a href="gallery-decorative.html"><div>Decorative</div></a></li>
 								</ul>
 							</li>
-							<li><a href="go-green.html" class="page-scroll"><div>go green</div></a>
+							<li><a href="go-green.html"  ><div>go green</div></a>
 
 							<!-- <li><a class="page-scroll" href="#testimonials"><div>Testimonials</div></a></li> -->
-							<li><a href="index.html"><div>Contact Us</div></a></li>
+							<li><a href="contact-us.html"><div>Contact Us</div></a></li>
 
 
 
@@ -578,7 +576,7 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 
 				</div> -->
 
-				<div class="section nobottommargin nobottomborder" id="gallery" style="margin-top:0px !important;    background: url('images/solar/222.jpg');background-size: cover;">
+				<div class="section nobottommargin nobottomborder" id="gallery" style="margin-top:0px !important;    background:#f6f6f6;">
 					<div class="container clearfix">
 						<div class="heading-block center nomargin">
 							<h3>Our Projects</h3>
@@ -1103,7 +1101,10 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 						<div class="col-md-12 topmargin-sm">
 							<div class="widget widget_links clearfix">
 
-							<h4>Go GREEN</h4>
+							<h4>GO GREEN</h4>
+							<ul>
+								<li><a href="go-green.html">Check out our Green Advantage</a> </li>
+							</ul>
 						</div>
 					</div>
 
@@ -1135,20 +1136,7 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 
 								</div>
 
-								<!-- <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-body">
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-													<h4 class="modal-title" id="myModalLabel"></h4>
-												</div>
-												<iframe width="854" height="480" src="https://www.youtube.com/embed/OguQFOOp7BY?list=UU6Z0hiDQqg7jALvTPRPdy9g" frameborder="0" allowfullscreen></iframe>
 
-											</div>
-										</div>
-									</div>
-								</div> -->
 								<div class="modal fade" id="youtubeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 									<div class="modal-dialog" role="document">
 										<div class="modal-content">
@@ -1171,7 +1159,7 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 					<div class="col-md-3 col_last">
 						<div class="widget clearfix">
 							<h4>News & Updates</h4>
-						<a class="twitter-timeline"  height="230" width="100%" href="https://twitter.com/SolarandSafety"  data-widget-id="477912314713088000">Tweets by @SolarandSafety</a>
+						<a class="twitter-timeline"  height="300" width="100%" href="https://twitter.com/SolarandSafety"  data-widget-id="477912314713088000">Tweets by @SolarandSafety</a>
 
 
 							 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -1222,7 +1210,6 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 	<!-- External JavaScripts
 	============================================= -->
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
 	<script src="js/YouTubeDefaultImageLoader.js"></script>
 
 
@@ -1235,18 +1222,6 @@ After years of solid environmental stewardship, SolarGard journey towards enviro
 
 	<script src="social/js/jquery.contact-buttons.js"></script>
 	<script src="social/js/demo.js"></script>
-	<script type="text/javascript">
-	$(function() {
-			$('a.page-scroll').bind('click', function(event) {
-					var $anchor = $(this);
-					$('html, body').stop().animate({
-							scrollTop: $($anchor.attr('href')).offset().top
-					}, 1500, 'easeInOutExpo');
-					event.preventDefault();
-			});
-	});
-
-	</script>
 
 
 </body>

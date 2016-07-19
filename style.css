@@ -8046,7 +8046,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.media-box.fbox-bg .fbox-media { margin: 0; }
 
 .feature-box.media-box.fbox-bg .fbox-desc {
-	padding: 25px;
+	padding: .5em;
 	background-color: #FFF;
 	border: 1px solid #E5E5E5;
 	border-top: 0;
@@ -13577,4 +13577,10 @@ color: #111 !important;
 {
 	display: none !important;
 }
+}
+.thumbnail h3
+{
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	text-transform: uppercase;
 }
