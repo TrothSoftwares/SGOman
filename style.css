@@ -13582,4 +13582,19 @@ color: #111 !important;
 	font-size: 1.3em;
 	margin-bottom: 10px;
 	text-transform: uppercase;
+	color: #eee;
+}
+.thumbnail p
+{
+	color: #eee;
+	margin-bottom: 10px !important;
+
+}
+.thumbnail
+{
+	padding: 10px !important;
+	background: #017FB3;
+}
+.thumbnail a{
+	color: #f5f5f5;
 }
