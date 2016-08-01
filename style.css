@@ -13599,6 +13599,14 @@ color: #111 !important;
 .thumbnail a{
 	color: #f5f5f5;
 }
+.thumbnail img
+{
+	opacity: 1;
+}
+.thumbnail img:hover
+{
+	opacity: 0.8;
+}
 .footer-widgets-wrap
 {
 	padding-bottom: 20px !important;
