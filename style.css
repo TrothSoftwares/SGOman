@@ -13625,3 +13625,8 @@ color: #111 !important;
 {
 	color: #fff;
 }
+.content-list li
+{
+	font-size: 15px;
+	margin-bottom: 10px;
+}
