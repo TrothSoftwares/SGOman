@@ -868,8 +868,8 @@ html[xmlns] .slider-wrap {display: block;}
 	float: left;
 	width: auto;
 	overflow: hidden;
-	height: 44px;
-	line-height: 44px;
+	height: 20px;
+	line-height: 20px;
 }
 
 #top-social li { border-left: 1px solid #EEE; }

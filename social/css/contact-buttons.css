@@ -62,7 +62,9 @@
 .contact-button-link.gplus {
   background: #db4437;
 }
-
+.contact-button-link.instagram {
+  background: #955B4D;
+}
 .contact-button-link.separated {
   margin-top: 1em;
 }
